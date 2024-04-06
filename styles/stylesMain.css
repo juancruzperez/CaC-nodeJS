@@ -1,0 +1,56 @@
+/* 
+#556d6d verde
+#c1b66c amarillo
+*/
+/*  
+header{
+    background-color: #c1b66c;
+    padding: 1.2rem 0;
+}
+
+header img{
+    max-width: 150px;
+}
+
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 .5rem;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #556d6d;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #556d9f;
+    text-decoration: underline;
+}
+*/
+.whatsapp{
+    background-color: #075e54;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.whatsapp a{
+    color: blanchedalmond;
+    left: 50%;
+    right: 50%;
+}
