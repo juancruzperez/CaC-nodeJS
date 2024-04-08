@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/styleRegistro.css">
+    <title>Registro</title>
+</head>
+<body>
+    <header class="encabezado">
+        <div class="caja">
+            <a href="../landing.html">
+                <img class="logo" src="../resources/img/logo2.jpg" alt="logo empresa">
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#alquileres">Alquileres</a></li>
+                    <li><a href="#ventas">Ventas</a></li>
+                    <li><a href="#">Tasaciones</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                    <li><a href="#">Registro</a></li>
+                    <li><a href="#">Tu cuenta</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h2>Registrar Cuenta Nueva</h2>
+        <form action="" method="post">
+            <label for="nombre/s">Nombre</label>
+            <input type="text" name="nombre" id="nombre" minlength="3" maxlength="25" required placeholder="Catharina-Amalia Beatrix Carmen Victoria">
+            <label for="apellido">Apellido/s</label>
+            <input type="text" name="apellido" id="apellido" minlength="3" maxlength="25" required placeholder="Van Oranje-Nassau">
+            <label for="telefono">Teléfono</label>
+            <input type="number" name="telefono" id="telefono" minlength="10" maxlength="15" required placeholder="digitos sin guiones">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+            <label for="password">Contraseña</label>
+            <input type="password" name="password" id="password" minlength="8" maxlength="20" required>
+            <label for="password2">Repetir contraseña</label>
+            <input type="password" name="password2" id="password2" minlength="8" maxlength="20" required>
+            <label for="tipoPersona">Tipo de Persona</label>
+            <select name="tipoPersona" id="tipoPersona">
+                <option value="fisica">Física</option>
+                <option value="jurídica">Jurídica</option>
+            </select>
+            <label for="cuil">CUIL/CUIT</label>
+            <input type="number" name="cuil" id="cuil" minlength="11" maxlength="11" required placeholder="11 digitos sin guiones">
+            <label for="cbu">CBU</label>
+            <input type="number" name="cbu" id="cbu" minlength="22" maxlength="22" required placeholder="22 digitos sin guiones">
+            <input type="submit" value="Crear Cuenta">
+        </form>
+    </main>
+    <footer>
+        <div class="mapaSitio">
+            <h3>Mapa del sitio</h3>
+            <ul>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#alquileres">Alquileres</a></li>
+                <li><a href="#ventas">Ventas</a></li>
+                <li><a href="#">Tasaciones</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#">Registro</a></li>
+                <li><a href="#">Tu cuenta</a></li>
+            </ul>
+        </div>
+        <div class="FAQ">
+            <h3><a href="#">Preguntas frecuentes</a></h3>
+        </div>
+        <div class="redes">
+
+        </div>
+    </footer>
+</body>
+</html>
