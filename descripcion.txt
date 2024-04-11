@@ -1,0 +1,40 @@
+landing page:
+    >Es donde se muestra la identidad de marca y donde encontramos informacion sobre la empresa
+    >Se ofreceran los servicios de ALQUILERES - VENTAS
+    >Tambien para el usuario general encontrara las publicaciones de alquileres y ventas de propiedades
+
+Usuarios Registrados: existiran 3 tipos de usuarios registrados: 
+    1)INQUILINOS
+    2)PROPIETARIOS
+    3)ADMINS
+
+1--INQUILINOS:
+    Tendra los siguientes elementos/secciones:
+        >Mensaje del propietartio (solo aparecera en caso de que el propietario haya enviado un mensaje). Tendra un boton de solo confirmacion de lectura y otro de contestar (se habilitara un textarea para que escriba respuesta)
+        >Contrato de alquiler activo
+        >Modulo de historial de pagos y aviso de pago de alquiler (donde apareceran dinamicamente los comprobantes de pago de la mensualidad)
+            &Se mostrara el monto del pago
+            &input fecha de pago
+            &comprobante de pago
+        >Modulo para la carga de pagos de servicios
+            &Debera ser un form, en el que el inquilino suba los siguientes datos:
+                ?Tipo de servcio (option) gas, agua/cloacas, electricidad, expensas, ABL, etc
+                ?Monto del pago
+                ?Fecha de pago
+            &Input:File para la suba de factura del periodo declarado
+            &Input:File para la suba del comprobante de pago del periodo declarado
+        >Modulo de historial de pago de servicios, donde se mostraran dinamicamente los pagos anteriores en una tabla con el siguiente formato:
+            FECHA DE CARGA // TIPO DE SERVICIO // FECHA DE PAGO // MONTO PAGADO // FACTURA // COMPROBANTE DE PAGO
+        >Modulo Denuncia: en este modulo el inquilino informara sobre situaciones pertinentes a la unidad en alquiler (roturas, desperfectos, mejoras)
+            &Textarea donde el inquilino describira la situacion por la que realiza la Denuncia
+            &input:file donde el inquilino subira hasta 3 documentos que documenten, complementen la denuncia (fotos, comprobantes de pago, copia de exposicion policial, etc)
+
+2--PROPIETARIOS:
+    Tendra los siguientes elementos/secciones:
+        >Modulo de historial de pagos (donde apareceran dinamicamente los comprobantes de pago de la mensualidad informados por los propietarios)
+            &Se mostrara el monto del pago
+            &se confirmara la recepcion del pago que fue informado
+        >Modulo de historial de pago de servicios, donde se mostraran dinamicamente los pagos en una tabla con el siguiente formato:
+            FECHA DE CARGA // TIPO DE SERVICIO // FECHA DE PAGO // MONTO PAGADO // FACTURA // COMPROBANTE DE PAGO
+        >Modulo Mensaje: en este modulo el propietrario podra enviar mensajes a los inquilinos sobre situaciones pertinentes a la unidad en alquiler (moras, solicitud de visita, informacion general)
+            &Textarea donde el propietario scribira el mensaje a ser enviado a los inquilinos
